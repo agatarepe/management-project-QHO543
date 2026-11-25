@@ -35,5 +35,19 @@ class DataStore(
         events.add(CommunityEvent("E006", "International Students Social", "Social", "Maria Costa", "18 Oct 2026", "18:00", "Student Union", 5, "Cancelled"))
 
         // Add predefined reservations
+        reservations.add(Reservation("R001", "S001", "E001", "Active"))
+        reservations.add(Reservation("R002", "S002", "E001", "Active"))
+        reservations.add(Reservation("R003", "S003", "E001", "User Cancelled"))
+        reservations.add(Reservation("R004", "S001", "E002", "Active"))
+        reservations.add(Reservation("R005", "S002", "E002", "Active"))
+        reservations.add(Reservation("R006", "S004", "E002", "Active"))
+        reservations.add(Reservation("R007", "S005", "E002", "Active"))
+        reservations.add(Reservation("R008", "S006", "E003", "Active"))
+        reservations.add(Reservation("R009", "S001", "E004", "Completed"))
+        reservations.add(Reservation("R010", "S003", "E004", "Completed"))
+        reservations.add(Reservation("R011", "S004", "E005", "Completed"))
+        reservations.add(Reservation("R012", "S005", "E005", "User Cancelled"))
+        reservations.add(Reservation("R013", "S002", "E006", "Event Cancelled"))
+        reservations.add(Reservation("R014", "S006", "E006", "Event Cancelled"))
     }
 }
