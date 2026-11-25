@@ -20,6 +20,8 @@ class DataStore(
 
         // Add predefined administrator
 
+        administrators.add(Administrator("admin", "Admin123", "Administrator"))
+
         // Add predefined community events
 
         // Add predefined reservations
