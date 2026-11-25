@@ -24,6 +24,8 @@ class DataStore(
 
         // Add predefined community events
 
+        events.add(CommunityEvent("E001", "Python Coding Workshop", "Academic", "Helen Moore", "14 Oct 2026", "14:00", "Computing Lab B12", 6, "Upcoming"))
+
         // Add predefined reservations
     }
 }
